@@ -1,2 +1,2 @@
-# pathakvishal.gitbub.io
+# pathakvishal.github.io
 My portfolio
