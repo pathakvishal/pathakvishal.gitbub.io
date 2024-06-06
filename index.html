@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name - Portfolio</title>
+    <title>Vishal Pathak - Portfolio</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -12,7 +12,9 @@
             <ul>
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#education">Education</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
@@ -20,38 +22,79 @@
 
     <section id="home">
         <h1>Welcome to My Portfolio</h1>
-        <p>Hi, I'm [Your Name], a [Your Profession].</p>
+        <p>Hi, I'm Vishal Pathak, a Senior R & D Engineer.</p>
     </section>
 
     <section id="about">
         <h2>About Me</h2>
-        <p>[A brief description about yourself]</p>
+        <p>I have industrial experience in the design, implementation, and validation of complex systems in C++. I am experienced in creating automated test flows using shell and python scripting, and debugging HW/SW integration of TLM C++ models on virtual platforms.</p>
     </section>
 
-    <section id="projects">
-        <h2>Projects</h2>
-        <div class="project">
-            <h3>Project Title</h3>
-            <p>Project Description</p>
-            <a href="#">View Project</a>
-        </div>
+    <section id="experience">
+        <h2>Experience</h2>
+
+        <h3>Senior R&D Engineer I at Synopsys India Pvt. Ltd., Bangalore</h3>
+        <p><em>Feb 2019 - Present</em></p>
+        <ul>
+            <li>Responsible for alignment of Synopsys’s Designware Ethernet Controller TLM models EQoS and XGMAC with the latest RTL release versions and timely deliveries to the customer for early software development.</li>
+            <li>Worked with driver team to enable main line kernel linux ethernet driver(stmmac) and test applications on ARM based virtual platform.</li>
+            <li>Supported customers to integrate ethernet controller TLM model in their platform, bring up ethernet driver for new features, resolved bugs, provided solution to verify various scenarios in simulation environment.</li>
+            <li>Worked with RTL verification team for RTL Co-simulation to improve the quality of models – Validated System Verilog tests with TLM model as DUT using UVM Connect.</li>
+            <li>Created flow test scripts in python to run on regression which validates all linux ethernet driver test applications on ARM based virtual platform with EQoS and XGMAC instances connected back to back.</li>
+            <li>Worked on ASIC models development and verification for Aurix TC38x based automotive platforms.</li>
+            <li>Mentored contractor and new team members for project onboarding.</li>
+        </ul>
+
+        <h3>Member of Technical Staff at CircuitSutra Technologies Pvt. Ltd., Bangalore</h3>
+        <p><em>July 2016 – Jan 2019</em></p>
+        <ul>
+            <li>Worked on the enhancements of TLM LT models of Synopsys Designware Ethernet (EQoS/XGMAC) Controller IPs used for early software development.</li>
+            <li>Enhanced TLM model for complex features such as Time Sensitive Networking (IEEE standard).</li>
+            <li>Created a Unit Test framework in C++.</li>
+            <li>Verification of TLM LT model of Synopsys Designware IP DW_APB_UART.</li>
+            <li>Followed TDD approach for test development and verification, focused on quality aspects like code coverage, functional coverage, valgrind and added Jenkins loops for all to verify at every model update.</li>
+        </ul>
+
+        <h3>HEP Intern at Mentor Graphics, Noida</h3>
+        <p><em>June 2015 - July 2015</em></p>
+        <ul>
+            <li>Designed reduced instruction set microcontroller ALU Unit, UART protocol & LFSR using Verilog.</li>
+            <li>Final project - Verification of data & control path of unpipelined LC3 Microcontroller with reduced instruction set.</li>
+            <li>Created verification environment using SystemVerilog to find & report bugs in the encrypted DUT (Black Box).</li>
+        </ul>
+    </section>
+
+    <section id="skills">
+        <h2>Technical Skills</h2>
+        <ul>
+            <li>SCM Tools: Perforce, git</li>
+            <li>Programming Languages: C, C++, Verilog, SystemVerilog, Shell, Python, Tcl</li>
+            <li>Agile: Kanban - Onenote/Wekan, TDD</li>
+            <li>Virtual Prototyping Tool: Virtualizer Studio</li>
+            <li>RTL Tool: QuestaSim, ModelSim</li>
+            <li>Build & Debug Utilities: cmake, scons, gdb</li>
+            <li>Others: Wireshark, pcap</li>
+        </ul>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <ul>
+            <li>Jaypee Institute of Information Technology, Noida - Bachelor’s Degree in Electronics & Communication Engineering, CGPA 8.7 (June 2012 - May 2016)</li>
+            <li>Jay Jyoti School, Rewa - Intermediate (Physics, Chemistry & Mathematics), 94.2% (2012)</li>
+            <li>Jay Jyoti School, Rewa - High School, CGPA 9.0 (2010)</li>
+        </ul>
     </section>
 
     <section id="contact">
         <h2>Contact</h2>
-        <form>
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name">
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email">
-            <label for="message">Message:</label>
-            <textarea id="message" name="message"></textarea>
-            <button type="submit">Send</button>
-        </form>
+        <p><strong>Vishal Pathak</strong></p>
+        <p><strong>Email:</strong> <a href="mailto:vshlptk@gmail.com">vshlptk@gmail.com</a></p>
+        <p><strong>Phone:</strong> (+91) 8447177899</p>
     </section>
 
     <footer>
-        <p>© 2024 Your Name. All rights reserved.</p>
+        <p>© 2024 Vishal Pathak. All rights reserved.</p>
         <ul>
             <li><a href="#">LinkedIn</a></li>
             <li><a href="#">GitHub</a></li>
@@ -60,4 +103,3 @@
     </footer>
 </body>
 </html>
-
